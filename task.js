@@ -11,3 +11,8 @@ return "Hello boss";
 }
 return "Hello guest"; // Add code here
 }
+
+// https://www.codewars.com/kata/keep-hydrated-1/train/javascript?fbclid=IwAR26-vfFDhmhQE82RulsR_WQAXgRatqvM12n76TaJRzcTIUnr-fgTOJWOW4
+function litres(time) {
+    return parseInt(time * 0.5);
+}
