@@ -16,3 +16,8 @@ return "Hello guest"; // Add code here
 function litres(time) {
     return parseInt(time * 0.5);
 }
+
+// https://www.codewars.com/kata/grasshopper-terminal-game-move-function/train/javascript?fbclid=IwAR2PKSUxZYrnABCGp98atAZj2Bal0Fge6YM4ZvQWYwElTMSoU9136BJYwDs
+function move (position, roll) {
+ return position + roll * 2;
+}
