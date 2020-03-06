@@ -21,3 +21,8 @@ function litres(time) {
 function move (position, roll) {
  return position + roll * 2;
 }
+
+// https://www.codewars.com/kata/be-concise-i-the-ternary-operator/train/javascript?fbclid=IwAR1P-ZbTZ_XsHG76Z4IJkoY079-UBXh2kwQ40xnhrcYvu4gOMOcGU5YskLc
+function describeAge(a) {
+return `You're a(n) ${a<13?'kid':a<18?'teenager':a<65?'adult':'elderly'}`
+}
